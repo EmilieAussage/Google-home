@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+section{
+  height: 233px;
+  margin-top: 89px;
+  width: 100%;
+}
+
+footer{
+  bottom: 0;
+  front: size 10pt;
+  height: 137px;
+  position: fixed;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #222;
+}
+
+#conteneur{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.bouton{
+  margin-left: 15px;
+  margin-top: 14px
+}
+
+.connexion{
+  margin: 7px 7px 0 7px;
+  padding: 7px 15px;
+  border: 1px solid;
+  border-radius: 5px;
+  color: whitesmoke !important;
+  font-weight: bold;
+  background-color: #4285f4;
+}
+
+.connexion:hover {
+  box-shadow: 0px 1px 1px #4285f4;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #609;
+}
+
+a:hover {
+  color: #1a0dab;
+  text-decoration: underline;
+}
+
+.google{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items:center
+}
+
+.recherche{
+  margin: 7px 3px 7px 7px;
+  padding: 7px 7px;
+  border: 1px solid;
+  border-radius: 5px;
+  color: whitesmoke !important;
+  font-weight: bold;
+  background-color: grey;
+}
+
+#pied-page{
+  border: 2px, black, solid;
+  bottom: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  padding-bottom: 137px;
+}
